@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ASUS\\Documents\\NET\\SimpleLoginApp\\SimpleLoginApp.csproj": {}
+    "C:\\Users\\ASUS\\Documents\\GitHub\\Testproject-.NET-\\SimpleLoginApp\\SimpleLoginApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ASUS\\Documents\\NET\\SimpleLoginApp\\SimpleLoginApp.csproj": {
+    "C:\\Users\\ASUS\\Documents\\GitHub\\Testproject-.NET-\\SimpleLoginApp\\SimpleLoginApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\NET\\SimpleLoginApp\\SimpleLoginApp.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\Documents\\GitHub\\Testproject-.NET-\\SimpleLoginApp\\SimpleLoginApp.csproj",
         "projectName": "SimpleLoginApp",
-        "projectPath": "C:\\Users\\ASUS\\Documents\\NET\\SimpleLoginApp\\SimpleLoginApp.csproj",
+        "projectPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Testproject-.NET-\\SimpleLoginApp\\SimpleLoginApp.csproj",
         "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ASUS\\Documents\\NET\\SimpleLoginApp\\obj\\",
+        "outputPath": "C:\\Users\\ASUS\\Documents\\GitHub\\Testproject-.NET-\\SimpleLoginApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -43,6 +43,18 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

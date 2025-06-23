@@ -1,0 +1,46 @@
+@model SimpleLoginApp.Models.RegistrationModel
+
+@{
+    ViewData["Title"] = "Registration Details";
+}
+
+<h1>Registration Details</h1>
+
+<div class="row">
+    <div class="col-md-6">
+        <dl class="row">
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.PersonId)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.PersonId)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.Age)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.Age)
+            </dd>
+
+            <dt class="col-sm-4">
+                @Html.DisplayNameFor(model => model.RegistrationDate)
+            </dt>
+            <dd class="col-sm-8">
+                @Html.DisplayFor(model => model.RegistrationDate)
+            </dd>
+        </dl>
+
+        <div>
+            <a asp-action="Index" class="btn btn-primary">View All Registrations</a>
+            <a asp-action="Create" class="btn btn-success">Register Another Person</a>
+        </div>
+    </div>
+</div> 
